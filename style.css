@@ -74,10 +74,34 @@ right: 32.5em;
   height: 35rem;
   width: 35rem;
   position: relative;
+  margin-left: auto;
+  margin-right: auto;
   }
 
   form::placeholder {
    text-align: center;
+  }
+
+  h1 {
+    font-size: 10vh;
+   text-align: center;
+  }
+
+
+
+  button {
+    border-radius: 12px;
+    padding: 1.5%;
+    
+    
+  }
+
+  #left {
+    margin-left: -3.2%;
+  }
+
+  #right {
+    margin-right: -3.2%;
   }
 
   input {
@@ -95,8 +119,17 @@ right: 32.5em;
     
   }
 
+  #about {
+    text-align: center;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   #contact {
-    
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
   
   }
 
@@ -130,6 +163,6 @@ right: 32.5em;
   /* Add a background color and some padding around the form */
   .container {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: #fff;
     padding: 20px;
   }
