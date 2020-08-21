@@ -10,7 +10,7 @@ body {
 body::after {
  
     content: "";
-    background: url(/img/pexels-binyamin-mellish-106399.jpg);
+    background: url(img/pexels-binyamin-mellish-106399.jpg);
     height: 150%;
 
   /* Center and scale the image nicely */
