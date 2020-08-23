@@ -6,34 +6,42 @@
   <script src="https://kit.fontawesome.com/74176d5c0d.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsiveness.css">
   <title>MBJ Holdings, LLC</title>
 </head>
 <body>
   <div class="site-container">
     <div id="contact-home">
       <h1>MBJ Holdings, LLC <i class="fas fa-home"></i></h1>
-    <h3>Full Service Home Restoration</h3>
+    <h3 id="description">Full Service Home Rehab, Remodel, and Restoration</h3>
+    <h3 id="number"> (214) 755-8525</h3>
     <nav class="navbar">
-      <a href="index.html">Home</a>
-      <a href="whatweoffer.html">What We Offer</a>
-      <a href="contact.html">Contact</a>
+      <a href="index.html"><i class="fas fa-house-user"></i> Home</a>
+          <a href="whatweoffer.html"><i class="fas fa-toolbox"></i> What We Offer</a>
+          <a href="contact.html"><i class="fas fa-phone-volume"></i> Contact</a>
       
     </nav>
     </div>
     <div id="contact">
       <div class="contact-container">
-        <form id="contact-form">
-          <h3>Please contact us</h3>
+          <h3>Please contact us:</h3>
+          <form id="contact-form" action="https://formspree.io/myynabzn" method="POST">
             <label for="name">Your Name:</label>
-            <input type="text" placeholder="Your Name"><br><br>
-            <label for="Email">Email Address:</label>
-            <input type="email" placeholder="Email Address"><br><br>
-            <label for="fname">Phone Number:</label>
-            <input type="number" placeholder="(000) 000-0000"><br><br>
-            <label id="message" for="message">Your Message:</label>
-            <textarea placeholder="Your Message Here"></textarea><br><br>
-            <button type="submit">submit</button>
-
+            <input type="text" name="name" placeholder="Your Name"> <br> <br>
+            <label for="email">Your Email Address:</label>
+            <input type="email" name="replyto" placeholder="Your Email Address"> <br><br>
+            <label for="tel">Your Telephone Number:</label>
+            <input type="number" name="phonenumber" placeholder="Your Phone Number"> <br><br>
+            <input type="hidden" name="_subject" value="Website contact" />
+            <label id="your-message" for="message">Your Message:</label>
+            <textarea name="message" placeholder="Your Message"></textarea>
+            <input type="text" name="_gotcha" style="display:none" /> <br><br>
+            <input id="submit-input" type="submit" value="Send">
+        </form>
+        <script>
+            var contactform =  document.getElementById('contactform');
+            contactform.setAttribute('action', '//formspree.io/' + 'your' + '@' + 'email' + '.' + 'com');
+        </script>
           </form>
         </div>
     </div>

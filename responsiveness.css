@@ -1,0 +1,1109 @@
+/* For typical mobile devices */
+@media only screen and (min-width: 220px) and (max-width: 479px) {
+  body::after {
+ 
+    content: "";
+    background: url(img/pexels-binyamin-mellish-106399.jpg);
+    height: 440%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: bottom;
+  background-attachment: fixed;
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  
+}
+
+
+  h1 {
+    
+    font-size: 5.8vw;
+    margin-left: 1.5%;
+    /* font-family: 'Ubuntu', sans-serif; */
+  }
+  h3 {
+    font-size: 2vw;
+    margin-top: -.5%;
+    margin-bottom: 10%;
+    margin-left: 1%;
+    /* font-family: 'Ubuntu', sans-serif; */
+  }
+
+  
+
+ #family {
+   margin: 0;
+   align-items: center;
+   height: 55vh;
+   width: 80vw;
+   margin-top: 7%;
+ 
+ }
+ #number {
+  font-size: 5.8vw;
+  margin-left: 58%;
+  margin-top: -25%;
+ }
+
+ #description {
+   text-align: center;
+   font-size: 4vw;
+ }
+
+ .navbar {
+   border: 5px solid #fc5226;
+   font-size: 3vw;
+   margin-top: 2%;
+ }
+
+ .about {
+   margin: 0;
+   font-size: 4.5vw;
+   width: 95%;
+   margin-top: 27rem;
+   padding-left: 2%;
+   padding-right: 2%;
+ }
+
+  .img-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+ #yel-to-white {
+  height: 50vh;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60%;
+  border: 1px solid #fff;
+}
+#yel-to-white-2 {
+  height: 50vh;
+  width: 80vw;
+  border: 2px solid white;
+  margin-top: 11%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#banda {
+  height: 50vh;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: .5%;
+}
+
+footer {
+  font-size: 3vw;
+}
+
+/*-- What we offer page --*/
+
+#services {
+  margin: 0;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 7%;
+ /* padding-left: 1%; */
+ padding-right: 1%;
+ margin-left: -1.7rem;
+ 
+ 
+}
+#services li {
+  font-size: 2.8vw;
+  margin: 5%;
+  
+}
+
+#services p{
+  font-size: 4vw;
+ margin-left: 13%;
+  margin-bottom: -3%;
+
+  
+}
+
+#wwo-images {
+  flex-direction: column;
+  margin-top: -1%;
+}
+
+#woodfloor {
+  height: 50vh;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16rem;
+}
+
+.offer {
+  font-size: 3.7vw;
+  display: flex;
+  width: 90%;
+  margin-top: -29rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#kitchens {
+  height: 50vh;
+  width: 80vw;
+  margin-top: 24em;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#purse-on-counter {
+  height: 50vh;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  border: 3px solid #fff;
+}
+
+#moms-bathroom {
+  height: 50vh;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2.3em;
+}
+
+#bathroom {
+  height: 50vh;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15%;
+}
+
+#contact-form, #contact-form input {
+  font-size: 3vw;
+}
+
+#contact-form {
+  padding: 5%;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  font-size: 5vw;
+}
+
+.contact-container h3 {
+  text-align: center;
+  margin-top: 7%;
+  font-size: 5vw;
+}
+
+}
+/* For mobile (landscape) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  body::after {
+ 
+    content: "";
+    background: url(img/pexels-binyamin-mellish-106399.jpg);
+    height: 440%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: bottom;
+  background-attachment: fixed;
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  
+}
+
+
+  h1 {
+    
+    font-size: 5.8vw;
+    margin-left: 1.5%;
+    /* font-family: 'Ubuntu', sans-serif; */
+  }
+  h3 {
+    font-size: 2vw;
+    margin-top: -.5%;
+    margin-bottom: 10%;
+    margin-left: 1%;
+    /* font-family: 'Ubuntu', sans-serif; */
+  }
+
+  
+
+ #family {
+   margin: 0;
+   align-items: center;
+   height: 90vh;
+   width: 80vw;
+   margin-top: 7%;
+ 
+ }
+ #number {
+  font-size: 5.8vw;
+  margin-left: 58%;
+  margin-top: -25%;
+ }
+
+ #description {
+   text-align: center;
+   font-size: 4vw;
+ }
+
+ .navbar {
+   border: 7px solid #fc5226;
+   font-size: 3vw;
+   margin-top: 2%;
+ }
+
+ .about {
+   margin: 0;
+   font-size: 4.5vw;
+   width: 95%;
+   margin-top: 43rem;
+   padding-left: 2%;
+   padding-right: 2%;
+ }
+
+  .img-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+ #yel-to-white {
+  height: 50vh;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 120%;
+  border: 1px solid #fff;
+}
+#yel-to-white-2 {
+  height: 50vh;
+  width: 80vw;
+  border: 2px solid white;
+  margin-top: 11%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#banda {
+  height: 50vh;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: .5%;
+}
+
+footer {
+  font-size: 3vw;
+}
+
+/*-- What we offer page --*/
+
+#services {
+  margin: 0;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 7%;
+ /* padding-left: 1%; */
+ padding-right: 1%;
+ margin-left: -1.7rem;
+ 
+ 
+}
+#services li {
+  font-size: 2.8vw;
+  margin: 5%;
+  
+}
+
+#services p{
+  font-size: 4vw;
+ margin-left: 8%;
+  margin-bottom: -2%;
+
+  
+}
+
+#wwo-images {
+  flex-direction: column;
+  margin-top: -1%;
+}
+
+#woodfloor {
+  height: 65vh;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 21rem;
+}
+
+.offer {
+  font-size: 3.7vw;
+  display: flex;
+  width: 90%;
+  margin-top: -39rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#kitchens {
+  height: 65vh;
+  width: 80vw;
+  margin-top: 26em;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#purse-on-counter {
+  height: 65vh;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2.8em;
+  border: 3px solid #fff;
+}
+
+#moms-bathroom {
+  height: 65vh;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+}
+
+#bathroom {
+  height: 65vh;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+
+#contact-form, #contact-form input {
+  font-size: 3vw;
+}
+
+#contact-form {
+  padding: 5%;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  font-size: 5vw;
+}
+
+.contact-container h3 {
+  text-align: center;
+  margin-top: 7%;
+  font-size: 5vw;
+}
+
+}
+/* For tablet */
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  body::after {
+ 
+    content: "";
+    background: url(img/pexels-binyamin-mellish-106399.jpg);
+    height: 1000%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: bottom;
+  background-attachment: fixed;
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  
+}
+
+
+  h1 {
+    margin-top: 1%;
+    font-size: 5.7vw;
+    margin-left: 1.5%;
+    /* font-family: 'Ubuntu', sans-serif; */
+  }
+  h3 {
+    font-size: 1.8vw;
+    margin-top: -.5%;
+    margin-bottom: 10%;
+    margin-left: 1%;
+    /* font-family: 'Ubuntu', sans-serif; */
+  }
+
+  
+
+ #family {
+   margin: 0;
+   align-items: center;
+   height: 100vh;
+   width: 80vw;
+   margin-top: 5%;
+ 
+ }
+ #number {
+  font-size: 5.8vw;
+  margin-left: 58%;
+  margin-top: -25%;
+ }
+
+ #description {
+   text-align: center;
+   font-size: 4vw;
+ }
+
+ .navbar {
+   border: 7px solid #fc5226;
+   font-size: 3vw;
+   margin-top: 2%;
+ }
+
+ .navbar a {
+   font-size: 2.7vw;
+ }
+
+ .about  {
+   margin: 0;
+   font-size: 3.8vw;
+   width: 95%;
+   margin-top: 100%;
+   margin-left: 2.5%;
+  
+  
+ }
+
+  .img-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+ #yel-to-white {
+  height: 100vh;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 93%;
+  border: 1px solid #fff;
+}
+#yel-to-white-2 {
+  height: 100vh;
+  width: 80vw;
+  border: 2px solid white;
+  margin-top: 7%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#banda {
+  height: 100vh;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+footer {
+  font-size: 3vw;
+}
+
+/*-- What we offer page --*/
+
+#services {
+  margin: 0;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 7%;
+ /* padding-left: 1%; */
+ padding-right: 1%;
+ margin-left: -1.7rem;
+ 
+ 
+}
+#services li {
+  font-size: 2.8vw;
+  margin: 5%;
+  
+}
+
+#services p{
+  font-size: 4vw;
+ margin-left: 8%;
+  margin-bottom: -1%;
+
+  
+}
+
+#wwo-images {
+  flex-direction: column;
+  margin-top: -1%;
+}
+
+#woodfloor {
+  height: 110vh;
+  width: 85vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35rem;
+}
+
+.offer {
+  font-size: 3.7vw;
+  display: flex;
+  width: 90%;
+  margin-top: -65rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#kitchens {
+  height: 120vh;
+  width: 85vw;
+  margin-top: 96%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#purse-on-counter {
+  height: 120vh;
+  width: 85vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2.8em;
+  border: 5px solid #fff;
+}
+
+#moms-bathroom {
+  height: 120vh;
+  width: 85vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+}
+
+#bathroom {
+  height: 120vh;
+  width: 85vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+#contact-form, #contact-form input {
+  font-size: 3vw;
+}
+
+#contact-form {
+  padding: 5%;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  font-size: 5vw;
+}
+
+.contact-container h3 {
+  text-align: center;
+  margin-top: 7%;
+  font-size: 5vw;
+}
+
+
+}
+/* For small desktop */
+@media only screen and (min-width: 980px) and (max-width: 1023px) {
+
+  body::after {
+ 
+    content: "";
+    background: url(img/pexels-binyamin-mellish-106399.jpg);
+    height: 1000%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: bottom;
+  background-attachment: fixed;
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  
+}
+
+
+  h1 {
+    margin-top: 1%;
+    font-size: 5.7vw;
+    margin-left: 1.5%;
+    /* font-family: 'Ubuntu', sans-serif; */
+  }
+  h3 {
+    font-size: 1.8vw;
+    margin-top: -.5%;
+    margin-bottom: 10%;
+    margin-left: 1%;
+    /* font-family: 'Ubuntu', sans-serif; */
+  }
+
+  
+
+ #family {
+   margin: 0;
+   align-items: center;
+   height: 100vh;
+   width: 80vw;
+   margin-top: 5%;
+ 
+ }
+ #number {
+  font-size: 5.8vw;
+  margin-left: 58%;
+  margin-top: -25%;
+ }
+
+ #description {
+   text-align: center;
+   font-size: 4vw;
+ }
+
+ .navbar {
+   border: 7px solid #fc5226;
+   font-size: 3vw;
+   margin-top: 2%;
+ }
+
+ .navbar a {
+   font-size: 2.7vw;
+ }
+
+ .about  {
+   margin: 0;
+   font-size: 3.8vw;
+   width: 95%;
+   margin-top: 100%;
+   margin-left: 2.5%;
+  
+  
+ }
+
+  .img-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+ #yel-to-white {
+  height: 100vh;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 93%;
+  border: 1px solid #fff;
+}
+#yel-to-white-2 {
+  height: 100vh;
+  width: 80vw;
+  border: 2px solid white;
+  margin-top: 7%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#banda {
+  height: 100vh;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+footer {
+  font-size: 3vw;
+}
+
+/*-- What we offer page --*/
+
+#services {
+  margin: 0;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 7%;
+ /* padding-left: 1%; */
+ padding-right: 1%;
+ margin-left: -1.7rem;
+ 
+ 
+}
+#services li {
+  font-size: 2.8vw;
+  margin: 5%;
+  
+}
+
+#services p{
+  font-size: 4vw;
+ margin-left: 8%;
+  margin-bottom: -1%;
+
+  
+}
+
+#wwo-images {
+  flex-direction: column;
+  margin-top: -1%;
+}
+
+#woodfloor {
+  height: 110vh;
+  width: 85vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35rem;
+}
+
+.offer {
+  font-size: 3.7vw;
+  display: flex;
+  width: 90%;
+  margin-top: -65rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#kitchens {
+  height: 120vh;
+  width: 85vw;
+  margin-top: 96%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#purse-on-counter {
+  height: 120vh;
+  width: 85vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2.8em;
+  border: 5px solid #fff;
+}
+
+#moms-bathroom {
+  height: 120vh;
+  width: 85vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+}
+
+#bathroom {
+  height: 120vh;
+  width: 85vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+#contact-form, #contact-form input {
+  font-size: 3vw;
+}
+
+#contact-form {
+  padding: 5%;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  font-size: 5vw;
+}
+
+.contact-container h3 {
+  text-align: center;
+  margin-top: 7%;
+  font-size: 5vw;
+}
+
+
+}
+
+
+/* For typical desktop */
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  body::after {
+ 
+    content: "";
+    background: url(img/pexels-binyamin-mellish-106399.jpg);
+    height: 1000%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: bottom;
+  background-attachment: fixed;
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  
+}
+
+
+  h1 {
+    
+    margin-top: 1%;
+    margin-bottom: .5%;
+    font-size: 4.4vw;
+    
+    /* font-family: 'Ubuntu', sans-serif; */
+  }
+  h3 {
+    font-size: 1.8vw;
+    margin-top: -.5%;
+    margin-bottom: 10%;
+    
+    /* font-family: 'Ubuntu', sans-serif; */
+  }
+
+  #description {
+     text-align: left;
+     font-size: 1.8vw;
+     margin-left: 1.2%;
+   }
+
+  
+  
+
+ #family {
+   margin: 0;
+   align-items: center;
+   margin-right: -8%;
+   height: 440px;
+   width: 450px;
+   margin-top: 5.5%;
+ 
+ }
+ #number {
+   margin-top: -12.5%;
+  font-size: 2vw;
+  margin-left: 85%;
+  
+}
+
+
+ .navbar {
+   border: 10px solid #fc5226;
+   font-size: 3vw;
+   margin-top: -9%;
+ }
+
+ .navbar a {
+   font-size: 2.7vw;
+ }
+
+ .about  {
+   margin: 0;
+   font-size: 2.3vw;
+   width: 45%;
+   margin-top: 20%;
+   margin-left: 2%;
+   padding: 2%;
+  
+  
+ }
+
+  .img-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20%;
+  }
+
+ #yel-to-white {
+  height: 440px;
+  width: 450px;
+  
+  
+  border: 1px solid #fff;
+}
+#yel-to-white-2 {
+  height: 440px;
+  width: 450px;
+  border: 2px solid white;
+ 
+}
+
+#banda {
+  margin-top: -20%;
+  height: 440px;
+  width: 700px;
+ 
+  
+}
+
+footer {
+  font-size: 2vw;
+  margin-bottom: 5%;
+}
+
+/*-- What we offer page --*/
+
+#services {
+  margin: 0;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 5%;
+ /* padding-left: 1%; */
+ padding-right: 1%;
+ margin-left: -1.7rem;
+ 
+ 
+}
+#services li {
+  font-size: 2vw;
+  margin: 5%;
+  
+}
+
+#services p{
+  
+  font-size: 2.5vw;
+ margin-left: 12%;
+  margin-bottom: 1%;
+
+  
+}
+
+#wwo-images {
+  flex-direction: column;
+  margin-top: -1%;
+}
+
+#woodfloor {
+  height: 375px;
+  width: 375px;
+  margin-left: auto;
+  margin-top: 5%;
+  
+}
+
+.offer {
+  font-size: 2.2vw;
+  display: flex;
+  width: 50%;
+  margin-top: -38%;
+  padding-top: 3%;
+  padding-bottom: 1%;
+
+  
+  margin-right: auto;
+}
+
+#kitchens {
+  height: 120vh;
+  width: 85vw;
+  margin-top: 7%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#purse-on-counter {
+  height: 130vh;
+  width: 85vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -15%;
+  border: 5px solid #fff;
+}
+
+#moms-bathroom {
+  height: 120vh;
+  width: 85vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+}
+
+#bathroom {
+  height: 120vh;
+  width: 85vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#contact-form, #contact-form input {
+  font-size: 3vw;
+}
+
+.img-container-wwo {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact-form {
+  padding: 2%;
+  
+  width: 450px;
+  
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  font-size: 2vw;
+  height: 80%;
+}
+
+#contact-form input {
+  margin: 1%;
+}
+
+.contact-container h3 {
+  text-align: center;
+  margin-top: 3%;
+  font-size: 3vw;
+}
+
+
+}
+
+
+/* For large desktop */
+@media only screen and (min-width: 1200px) {
+
+}
