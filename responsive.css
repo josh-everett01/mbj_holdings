@@ -1,0 +1,856 @@
+/* ------------------------------------------
+  Responsive Grid Media Queries - 1280, 1024, 768, 480
+   1280-1024   - desktop (default grid)
+   1024-768    - tablet landscape
+   768-480     - tablet 
+   480-less    - phone landscape & smaller
+--------------------------------------------*/
+@media all and (min-width: 1024px) and (max-width: 1280px) { }
+ 
+@media all and (min-width: 768px) and (max-width: 1024px) { }
+ 
+@media all and (min-width: 480px) and (max-width: 768px) {
+  body {
+    color: yellow;
+  }
+  h1 {
+    font-size: 5.3vw;
+    margin-left: 3%;
+    /* font-family: 'Ubuntu', sans-serif; */
+  }
+  h3 {
+    font-size: 2vw;
+    margin-top: -.5%;
+    margin-bottom: 10%;
+    margin-left: 1%;
+    /* font-family: 'Ubuntu', sans-serif; */
+  }
+
+  #description {
+    margin-left: 3.2%;
+    text-align: center;
+  }
+
+  #number {
+    font-size: 5.3vw;
+    margin-top: -22%;
+    margin-left: 60%;
+  }
+
+  .navbar {
+    border: 5px solid #fc5226;
+    font-size: 2.7vw;
+    
+  }
+  #family {
+    align-items: center;
+    height: 350px;
+    width: 350px;
+    margin-right: 3%;
+    margin-top: 5%;
+  }
+  .about {
+    font-size: 4vw;
+    padding: 2%;
+    width: 75%;
+    margin-top: 108%;
+    margin-left: 10.3%;
+  }
+  .img-container {
+    display: flex;
+    flex-direction: column;
+
+  }
+  #yel-to-white {
+    height: 350px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60%;
+    border: 1px solid #fff;
+  }
+  #yel-to-white-2 {
+    height: 350px;
+    width: 350px;
+    border: 2px solid white;
+    margin-top: 6%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #banda {
+    height: 350px;
+    width: 350px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  /*-- What we offer page --*/
+  #services {
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* margin-top: 3%;
+    margin-left: .5%; */
+    margin: 0;
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+
+    
+  }
+
+  ul {
+    margin-left: -3%;
+  }
+
+  #services li {
+    font-size: 2.8vw;
+    margin: 5%;
+    
+  }
+
+
+  #services p{
+    font-size: 3vw;
+    margin-left: 5%;
+    margin-bottom: -2%;
+    
+  }
+  
+  #wwo-images {
+    flex-direction: column;
+    margin-top: 2%;
+  }
+  
+  #woodfloor {
+    height: 400px;
+    width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 59%;
+  }
+  
+  .offer {
+    font-size: 3vw;
+    display: flex;
+    width: 90%;
+    margin-top: -144%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 2.9%;
+    padding-right: 2.9%;
+  }
+
+  section p {
+    font-size: 3.2vw;
+  }
+
+  #kitchens {
+    margin-top: 105%;
+    height: 400px;
+    width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #purse-on-counter {
+    height: 400px;
+    width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    border: 4px solid #fff;
+  }
+
+  #moms-bathroom {
+    height: 400px;
+    width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+  }
+
+  #bathroom {
+    height: 400px;
+    width: 425px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 9%;
+  }
+
+
+#contact-form, #contact-form input {
+  font-size: 3.5vw;
+  margin: 0;
+  padding: 1%
+}
+#contact-form label {
+  padding: 1%;
+  margin: 0;
+}
+
+
+#contact-form {
+  padding: 3%;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+
+.contact-container h3 {
+  font-size: 3.5vw;
+  text-align: center;
+  margin-top: 5%;
+}
+
+
+ }
+ 
+@media all and (max-width: 480px) {
+
+ 
+/*------------------------------------------
+  Foundation Media Queries 
+   http://foundation.zurb.com/docs/media-queries.html
+--------------------------------------------*/
+ 
+/* Small screens - MOBILE */
+@media only screen { 
+ 
+  h1 {
+    color: goldenrod;
+    font-size: 5.8vw;
+    margin-left: 1.5%;
+    /* font-family: 'Ubuntu', sans-serif; */
+  }
+  h3 {
+    font-size: 2vw;
+    margin-top: -.5%;
+    margin-bottom: 10%;
+    margin-left: 1%;
+    /* font-family: 'Ubuntu', sans-serif; */
+  }
+
+ #family {
+   margin: 0;
+   align-items: center;
+   height: 300px;
+   width: 300px;
+   margin-top: 10%;
+   margin-left: 10%;
+   
+ }
+ #number {
+  font-size: 5.8vw;
+  margin-left: 58%;
+  margin-top: -24%;
+ }
+
+ #description {
+   text-align: center;
+   font-size: 3vw;
+ }
+
+ .navbar {
+   border: 5px solid #fc5226;
+   font-size: 3vw;
+ }
+
+ .about {
+   font-size: 4.5vw;
+   width: 75%;
+   margin-top: 128%;
+  margin-left: 10%;
+   padding-left: 2%;
+   padding-right: 2%;
+ }
+
+  .img-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+ #yel-to-white {
+  height: 280px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 36%;
+  border: 1px solid #fff;
+}
+#yel-to-white-2 {
+  height: 280px;
+  width: 300px;
+  border: 2px solid white;
+  margin-top: 11%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#banda {
+  height: 300px;
+  width: 310px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: .5%;
+}
+
+footer {
+  font-size: 3vw;
+}
+
+/*-- What we offer page --*/
+
+#services {
+  margin: 0;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 7%;
+ padding-left: 1%;
+ padding-right: 1%;
+ margin-left: -3.9%;
+ 
+ 
+}
+#services li {
+  font-size: 2.9vw;
+  margin: 5%;
+  
+}
+
+#services p{
+  font-size: 3vw;
+ margin-left: 13%;
+  margin-bottom: -3%;
+
+  
+}
+
+#wwo-images {
+  flex-direction: column;
+  margin-top: -1%;
+}
+
+#woodfloor {
+  height: 300px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70%;
+}
+
+.offer {
+  font-size: 3.7vw;
+  display: flex;
+  width: 90%;
+  margin-top: -149%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#kitchens {
+  height: 300px;
+  width: 300px;
+  margin-top: 102%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#purse-on-counter {
+  height: 300px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  border: 3px solid #fff;
+}
+
+#moms-bathroom {
+  height: 300px;
+  width: 310px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8%;
+}
+
+#bathroom {
+  height: 300px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+
+#contact-form, #contact-form input {
+  font-size: 3vw;
+}
+
+#contact-form {
+  padding: 5%;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  font-size: 5vw;
+}
+
+.contact-container h3 {
+  text-align: center;
+  margin-top: 7%;
+  font-size: 5vw;
+}
+
+}
+} /* Define mobile styles - Mobile First */
+ 
+@media only screen and (max-width: 40em) {
+  body {
+    color: pink;
+  }
+   h1 {
+     color: black;
+     font-size: 5.8vw;
+     margin-left: 1.5%;
+     /* font-family: 'Ubuntu', sans-serif; */
+   }
+   h3 {
+     font-size: 2vw;
+     margin-top: -.5%;
+     margin-bottom: 10%;
+     margin-left: 1%;
+     /* font-family: 'Ubuntu', sans-serif; */
+   }
+ 
+  #family {
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #number {
+   font-size: 5.8vw;
+   margin-left: 58%;
+   margin-top: -24%;
+  }
+ 
+  #description {
+    text-align: center;
+    font-size: 3vw;
+  }
+ 
+  .navbar {
+    border: 5px solid #fc5226;
+    font-size: 3vw;
+  }
+ 
+  .about {
+    font-size: 4.5vw;
+    width: 75%;
+    margin-top: 128%;
+   margin-left: 10%;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+ 
+   .img-container {
+     display: flex;
+     flex-direction: column;
+   }
+ 
+  #yel-to-white {
+   height: 200px;
+   width: 200px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 16%;
+   border: 1px solid #fff;
+ }
+ #yel-to-white-2 {
+   height: 200px;
+   width: 200px;
+   border: 2px solid white;
+   margin-top: 11%;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ 
+ #banda {
+   height: 220px;
+   width: 220px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: .5%;
+ }
+ 
+ footer {
+   font-size: 3vw;
+ }
+ 
+ /*-- What we offer page --*/
+ 
+ #services {
+   margin: 0;
+   flex-direction: row;
+   flex-wrap: wrap;
+   margin-top: 7%;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-left: -3.9%;
+  
+  
+ }
+ #services li {
+   font-size: 2.9vw;
+   margin: 5%;
+   
+ }
+ 
+ #services p{
+   font-size: 3vw;
+  margin-left: 13%;
+   margin-bottom: -3%;
+ 
+   
+ }
+ 
+ #wwo-images {
+   flex-direction: column;
+   margin-top: -1%;
+ }
+ 
+ #woodfloor {
+   height: 300px;
+   width: 300px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 70%;
+ }
+ 
+ .offer {
+   font-size: 3.7vw;
+   display: flex;
+   width: 90%;
+   margin-top: -149%;
+   margin-right: auto;
+   margin-left: auto;
+ }
+ 
+ #kitchens {
+   height: 300px;
+   width: 300px;
+   margin-top: 102%;
+   margin-right: auto;
+   margin-left: auto;
+ }
+ 
+ #purse-on-counter {
+   height: 300px;
+   width: 300px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 5%;
+   border: 3px solid #fff;
+ }
+ 
+ #moms-bathroom {
+   height: 300px;
+   width: 310px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 8%;
+ }
+ 
+ #bathroom {
+   height: 300px;
+   width: 300px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 5%;
+ }
+ 
+ #contact-form, #contact-form input {
+   font-size: 3vw;
+ }
+ 
+ #contact-form {
+   padding: 5%;
+   width: 60%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 10%;
+   font-size: 5vw;
+ }
+ 
+ .contact-container h3 {
+   text-align: center;
+   margin-top: 7%;
+   font-size: 5vw;
+ }
+ 
+ 
+ } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+ 
+/* Medium screens - TABLET */
+@media only screen and (min-width: 40.063em) { 
+  body {
+    color: blue;
+  }
+} /* min-width 641px, medium screens */
+ 
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+ 
+/* Large screens - DESKTOP */
+@media only screen and (min-width: 64.063em) { } /* min-width 1025px, large screens */
+ 
+@media only screen and (min-width: 64.063em) and (max-width: 90em) { } /* min-width 1024px and max-width 1440px, use when QAing large screen-only issues */
+ 
+/* XLarge screens */
+@media only screen and (min-width: 90.063em) { } /* min-width 1441px, xlarge screens */
+ 
+@media only screen and (min-width: 90.063em) and (max-width: 120em) { } /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+ 
+/* XXLarge screens */
+@media only screen and (min-width: 120.063em) { } /* min-width 1921px, xlarge screens */
+ 
+/*------------------------------------------*/
+ 
+ 
+ 
+/* Portrait */
+@media screen and (orientation:portrait) { h1 {
+  font-size: 5.7vw;
+} 
+#family {
+  height: 55vh;
+  width: 75vw;
+}
+
+
+}
+/* Landscape */
+@media screen and (orientation:landscape) { /* Landscape styles here */ }
+ 
+ 
+/* CSS for iPhone, iPad, and Retina Displays */
+ 
+/* Non-Retina */
+@media screen and (-webkit-max-device-pixel-ratio: 1) {
+}
+ 
+/* Retina */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5) {
+}
+ 
+/* iPhone Portrait */
+@media screen and (max-device-width: 480px) and (orientation:portrait) {
+  h1 {
+    color: gold;
+  }
+} 
+ 
+/* iPhone Landscape */
+@media screen and (max-device-width: 480px) and (orientation:landscape) {
+  
+}
+ 
+/* iPad Portrait */
+@media screen and (min-device-width: 481px) and (orientation:portrait) {
+}
+ 
+/* iPad Landscape */
+@media screen and (min-device-width: 481px) and (orientation:landscape) {
+  h1 {
+    font-size: 5.8vw;
+    margin-left: 1.5%;
+    /* font-family: 'Ubuntu', sans-serif; */
+  }
+  h3 {
+    font-size: 2vw;
+    margin-top: -.5%;
+    margin-bottom: 10%;
+    margin-left: 1%;
+    /* font-family: 'Ubuntu', sans-serif; */
+  }
+
+ #family {
+   margin: 0;
+   align-items: center;
+   height: 450px;
+   width: 450px;
+   margin-top: 5%;
+   margin-right: 9%;
+   
+ }
+ #number {
+  font-size: 5.8vw;
+  margin-left: 58%;
+  margin-top: -24%;
+ }
+
+ #description {
+   text-align: center;
+   font-size: 3vw;
+ }
+
+ .navbar {
+   border: 5px solid #fc5226;
+   font-size: 3vw;
+ }
+
+ .about {
+   font-size: 4.5vw;
+   width: 75%;
+   margin-top: 97%;
+  margin-left: 10%;
+   padding-left: 2%;
+   padding-right: 2%;
+ }
+
+  .img-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+ #yel-to-white {
+  height: 450px;
+  width: 470px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 98%;
+  border: 1px solid #fff;
+}
+#yel-to-white-2 {
+  height: 450px;
+  width: 470px;
+  border: 2px solid white;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#banda {
+  height: 450px;
+  width: 490px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+footer {
+  font-size: 3vw;
+}
+
+/*-- What we offer page --*/
+
+#services {
+  margin: 0;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 7%;
+ padding-left: 1%;
+ padding-right: 1%;
+ /* margin-left: 4%;
+ margin-right: auto; */
+
+ 
+ 
+}
+#services li {
+  font-size: 2vw;
+  margin: 5%;
+  
+}
+
+#services p{
+  font-size: 3vw;
+ margin-left: 13%;
+  margin-bottom: -1%;
+
+  
+}
+
+#wwo-images {
+  flex-direction: column;
+  margin-top: -1%;
+}
+
+#woodfloor {
+  height: 450px;
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60%;
+}
+
+.offer {
+  font-size: 3.7vw;
+  display: flex;
+  width: 90%;
+  margin-top: -117%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#kitchens {
+  height: 450px;
+  width: 450px;
+  margin-top: 76%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#purse-on-counter {
+  height: 450px;
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  border: 3px solid #fff;
+}
+
+#moms-bathroom {
+  height: 450px;
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7%;
+}
+
+#bathroom {
+  height: 450px;
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7%;
+}
+
+#contact-form, #contact-form input {
+  font-size: 3vw;
+}
+
+#contact-form {
+  padding: 5%;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  font-size: 5vw;
+}
+
+.contact-container h3 {
+  text-align: center;
+  margin-top: 7%;
+  font-size: 5vw;
+}
+
+}
+
+ 
+
+
