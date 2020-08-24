@@ -167,12 +167,200 @@ footer {
 
 
 @media all and (min-width: 1024px) and (max-width: 1280px) {
+  * {
+    border-radius: 1%;
+  }
+  
+  body {
+    position: relative;
+    margin: 0;
+    background: #1561ad;
+    color: #fff;
+    font-family: "Lato", sans-serif;
+  }
+  
+  body::after {
+    content: "";
+    background: url(img/pexels-binyamin-mellish-106399.jpg);
+    height: 180vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    background-attachment: fixed;
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.3%;
+    margin-right: 0.3%;
+  }
+  
+  #flex-container {
+    display: grid;
+    grid-auto-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    margin: 3%;
+    column-gap: 1%;
+    row-gap: 3%;
+  }
+  
+  #mbj-number {
+    position: relative;
+    text-align: right;
+    margin-top: -3%;
+  }
+  
+  #mbj-description {
+    font-size: 1.3vw;
+  }
+  
+  .footer {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .about {
+    align-items: center;
+    margin-left: 2%;
+    align-content: center;
+    text-align: center;
+    grid-row: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background: rgba(0, 0, 0, 0.2);
+    width: 75%;
+    font-size: 1.5vw;
+    margin-left: 3%;
+  }
+  
+  .about p {
+    margin-top: 10%;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+  
+  #flex-container:nth-child(1) {
+    width: 50%;
+  }
+  
+  #mbj-h1 {
+    font-size: 3.2vw;
+    margin-left: 0.5%;
+  }
+  #mbj-number {
+    font-size: 3vw;
+    margin-top: -5%;
+    margin-right: 1%;
+  }
+  
+  #mbj-description {
+    margin-top: -2.7%;
+    margin-left: 0.6%;
+  }
+  #family {
+    grid-area: main-img;
+    height: 100%;
+    width: 85%;
+    grid-row: 1;
+    grid-column: 3 / span 3;
+    border: 3px solid white;
+    margin-left: -5%;
+  }
+  
+  .main-imgs {
+    height: 300px;
+    width: 300px;
+  }
+  
+  .navbar {
+    grid-area: navbar;
+    width: 100%;
+    background-color: #fc5226;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -3%;
+  }
+  
+  .navbar a {
+    font-size: 1.3vw;
+    color: #fff;
+    padding-top: 0.6%;
+    padding-bottom: 0.6%;
+  }
+  .navbar a:hover {
+    background-color: #1561ad;
+  }
+  
+  #yel-to-white {
+    height: 400px;
+    width: 100%;
+    grid-row: 3;
+    grid-column: 1;
+  }
+  
+  #yel-to-white-2 {
+    grid-row: 3;
+    grid-column: 2;
+    height: 400px;
+    width: 100%;
+    border: 2px solid white;
+  }
+  #banda {
+    grid-row: 3;
+    grid-column: 3;
+    height: 400px;
+    width: 100%;
+    /* margin-left: 8%; */
+  }
+  
+  
+  footer {
+    margin: 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
+  
+  
 }
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
+  #family {
+    width: 120%;
+    margin-left: -26%;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2.5vw;
+    align-items: center;
+  }
+
+  .main-imgs {
+    
+  }
 }
 
 @media all and (min-width: 480px) and (max-width: 768px) {
+  a[href^="tel"]{
+    color:inherit;
+    text-decoration:none;
+}
   #flex-container {
     align-items: center;
     display: flex;
@@ -190,7 +378,7 @@ footer {
   body::after {
     content: "";
     background: url(img/pexels-binyamin-mellish-106399.jpg);
-    height: 220vh;
+    height: 310vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -210,8 +398,8 @@ footer {
     grid-row: 1;
     grid-column: 2 / span 2;
     font-size: 4.2vw;
-    padding-left: 9%;
-    padding-right: 4%;
+    padding-left: 5%;
+    padding-right: 5%;
     margin-top: 7%;
   }
   #family {
@@ -310,7 +498,7 @@ footer {
     grid-row: 1;
     grid-column: 2 / span 2;
     font-size: 4.2vw;
-    padding-left: 9%;
+    padding-left: 4%;
     padding-right: 4%;
     margin-top: 7%;
   }
