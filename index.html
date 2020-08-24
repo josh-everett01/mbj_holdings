@@ -3,53 +3,65 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://kit.fontawesome.com/74176d5c0d.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="responsiveness.css">
+    <script
+      src="https://kit.fontawesome.com/74176d5c0d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsiveness.css" /> -->
+    <link rel="stylesheet" href="styles.css">
     <title>MBJ Holdings, LLC</title>
   </head>
   <body>
-    <div id="home">
-      <h1>MBJ Holdings, LLC <i class="fas fa-home"></i></h1>
-      <h3 id="description">Full Service Home Rehab, Remodel, and Restoration </h3>
-      <h3 id="number"> (214) 755-8525</h3>
-      <nav class="navbar">
-        <a href="index.html"><i class="fas fa-house-user"></i> Home</a>
-        <a href="whatweoffer.html"><i class="fas fa-toolbox"></i> What We Offer</a>
-        <a href="contact.html"><i class="fas fa-phone-volume"></i> Contact</a>
-      </nav>
+    <div class="container">
+      <h1 class="navbar-text" id="mbj-h1">MBJ Holdings, LLC <i class="fas fa-home"></i></h1>
+      <h3 class="navbar-text" id="mbj-description">
+        Full Service Home Rehab, Remodel, and Restoration
+      </h3>
+      <h3 class="navbar-text" id="mbj-number">(214) 755-8525</h3>
     </div>
-      <div class="main-page-container">
-        <div class="main-img">
-          <img id="family" src="img/img_2.jpg" alt="" />
-        </div>
+    <nav class="navbar">
+      <a href="index.html"><i class="fas fa-house-user"></i> Home</a>
+      <a href="whatweoffer.html"
+      ><i class="fas fa-toolbox"></i> What We Offer</a
+      >
+      <a href="contact.html"><i class="fas fa-phone-volume"></i> Contact</a>
+    </nav>
+    
+    <div id="flex-container">
+    <!-- <div class="main-section-container"> -->
+        <img id="family" src="img/img_2.jpg" alt="" />
+
         <section class="about">
           <p>
             MBJ Holdings, LLC was established in March 2006 as a woman-owned and
             minority-owned property preservation and eviction services company.
           </p>
-          <p>Call us at 
-            (214) 755-8525 to discuss any project you might have in mind.</p>
+          <p>
+            Call us at (214) 755-8525 to discuss any project you might have in
+            mind.
+          </p>
           <p>
             We pride ourselves on our response time, accessibility, and
             communication backed by grade A work.
           </p>
         </section>
-       
       
-      <div class="img-container-main-page">
-        <img id="yel-to-white" src="img/IMG_2228.JPG" alt="">
-        <img id="yel-to-white-2" src="img/IMG_2232.JPG" alt="">
+    
+        <img class="main-imgs" id="yel-to-white" src="img/IMG_2228.JPG" alt="" />
+        <img class="main-imgs" id="yel-to-white-2" src="img/IMG_2232.JPG" alt="" />
+        <img class="main-imgs" id="banda" src="img/woodfloor.jpg" alt="" />
+      
+
       </div>
-      
-        <img id="banda" src="img/IMG_4773.png" alt="">
-     
-      <div id="footer">
-      <footer> 2020 MBJ HOLDINGS INC All rights reserved**</footer>
-    </div>
-  </div>
-   
+      <footer class="footer">2020 MBJ HOLDINGS INC All rights reserved**</footer>
   </body>
 </html>
