@@ -339,7 +339,7 @@ input {
     font-family: "Lato", sans-serif;
   }
   
-  /* body::after {
+  body::after {
     content: "";
     background: url(img/pexels-binyamin-mellish-106399.jpg);
     height: 300vh;
@@ -355,7 +355,7 @@ input {
     right: 0;
     position: absolute;
     z-index: -1;
-  } */
+  }
   
   .container {
     display: flex;
@@ -505,7 +505,7 @@ input {
     color: #fff;
     font-family: "Lato", sans-serif;
   }
-  /* body::after {
+  body::after {
     content: "";
     background: url(img/pexels-binyamin-mellish-106399.jpg);
     height: 280vh;
@@ -521,7 +521,7 @@ input {
     right: 0;
     position: absolute;
     z-index: -1;
-  } */
+  }
   #family {
     width: 120%;
     margin-left: -26%;
@@ -564,7 +564,7 @@ input {
     color: #fff;
     font-family: "Lato", sans-serif;
   }
-  /* body::after {
+  body::after {
     content: "";
     background: url(img/pexels-binyamin-mellish-106399.jpg);
     height: 580vh;
@@ -579,7 +579,7 @@ input {
     bottom: 0;
     right: 0;
     position: absolute;
-    z-index: -1; */
+    z-index: -1;
   }
 
   .about {
@@ -695,9 +695,7 @@ input {
     border: 3px solid white;
   }
 
-  .footer {
-  
-  }
+ 
   /* Start of contact page */ 
 
   
@@ -749,7 +747,7 @@ margin-top: 10%;
     color: #fff;
     font-family: "Lato", sans-serif;
   }
-  /* body::after {
+  body::after {
     content: "";
     background: url(img/pexels-binyamin-mellish-106399.jpg);
     height: 380vh;
@@ -765,7 +763,7 @@ margin-top: 10%;
     bottom: 0;
     right: 0;
     position: absolute;
-    z-index: -1; */
+    z-index: -1;
   }
   #flex-container {
     align-items: center;
@@ -843,9 +841,7 @@ margin-top: 10%;
 
   
 
-  #services ul {
-   
-  }
+ 
 
   /* What we offer */
   #services li {
@@ -892,9 +888,7 @@ margin-top: 10%;
     border: 3px solid white;
   }
 
-  .footer {
   
-  }
 
   /* Start of contact page */ 
 
