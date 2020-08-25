@@ -314,7 +314,7 @@ input {
 .contact-container h3 {
   text-align: center;
 
-  font-size: 3vw;
+  font-size: 2.5vw;
   margin-top: 1%;
   margin-bottom: 2%;
 }
@@ -531,9 +531,14 @@ input {
     align-items: center;
   }
 
-  .main-imgs {
+  .contact-container h3 {
+    text-align: center;
+  margin-top: 10%;
+    font-size: 5vw;
+   
     
   }
+ 
 }
 
 @media all and (min-width: 480px) and (max-width: 768px) {
@@ -689,6 +694,47 @@ input {
   .footer {
   
   }
+  /* Start of contact page */ 
+
+  
+
+#contact-form {
+  
+  border-radius: 1%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+ margin: auto;
+  font-size: 2.5vw;
+  background: rgba(0, 0, 0, 0.2);
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 1%;
+  padding-bottom: 2%;
+  width: 75%;
+}
+
+#submit-input {
+  text-align: center;
+}
+
+input {
+  text-align: left;
+}
+
+#contact-form label {
+  
+  text-align: left;
+}
+
+.contact-container h3 {
+  text-align: center;
+margin-top: 10%;
+  font-size: 5vw;
+ 
+  
+}
 }
 
 @media all and (max-width: 480px) {
@@ -706,10 +752,11 @@ input {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: top;
+    background-position-x: 20%;
+    background-position-y: center;
     background-attachment: fixed;
     opacity: 0.3;
-    top: 0;
+    top: 0%;
     left: 0;
     bottom: 0;
     right: 0;
@@ -790,11 +837,7 @@ input {
    
   }
 
-  #services {
-    
-    
-    text-align:;
-  }
+  
 
   #services ul {
    
@@ -848,5 +891,48 @@ input {
   .footer {
   
   }
+
+  /* Start of contact page */ 
+
+  
+
+#contact-form {
+  
+  border-radius: 1%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+ margin: auto;
+  margin-top: 10%;
+  background: rgba(0, 0, 0, 0.2);
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 1%;
+  padding-bottom: 2%;
+  width: 75%;
+}
+
+#submit-input {
+  text-align: center;
+}
+
+input {
+  text-align: left;
+}
+
+#contact-form label {
+  
+  text-align: left;
+}
+
+.contact-container h3 {
+  text-align: center;
+
+  font-size: 5vw;
+  margin-top: 10%;
+  margin-bottom: 1%;
+}
+
   
 }
